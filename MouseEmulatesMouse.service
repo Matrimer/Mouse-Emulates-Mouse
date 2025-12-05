@@ -1,11 +1,11 @@
 [Unit]
 Description = Mouse Emulates Mouse service
 After=multi-user.target
-StartLimitIntervalSec = 2
+StartLimitIntervalSec = 20
 
 [Service]
 ExecStart = /usr/local/bin/MouseEmulatesMouse
-Restart = always
-RestartSec =
+Restart = Always
+RestartSec = 20ms
 Nice = -2
 Type = simple
