@@ -1,0 +1,6 @@
+[GPD Pocket 2 Pointing Device]
+MatchName=
+
+# If mouse-buttons and pointing device are wired as different devices
+# AttrPointingStickIntegration=external
+
